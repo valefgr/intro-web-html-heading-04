@@ -1,7 +1,7 @@
-# Lab: Creando Encabezados o Headings
+# Lab: Creando Headings (encabezados)
 
 ## Objetivos
-- Declarar el elemento `div` para agrupar mas elementos
+- Declarar el elemento `div` para agrupar elementos
 - Declarar los elementos `h1`, `h2`, `h3`, `h5` para crear encabezados
 - Declarar el elemento `p` para crear un parrafo
 
@@ -11,13 +11,38 @@ En HTML, hay seis headings o elementos de encabezado diferentes.
 
 
 ## Funcionalidad del Código
-En este lab añadiremos 2 elementos `div` los cuales nos permitirá contener otros elementos, tales como hedings y elementos `p`
+En este lab añadiremos 2 elementos `div` los cuales nos permitirán contener otros elementos, tales como hedings y elementos `p`
 
 ## Instrucciones
 Bifurca (fork) y clona (clone) este lab en tu entorno local. Navega a su directorio en la terminal, luego ejecuta el comando `code .` para abrir sus archivos en Visual Studio Code. 
 
-1. Dentro del `body` escribe 2 etiquetas`div` de apertura y cierre.
-2. En el primer `div` agrega las etiquetas `<h1>/<h1>` y `<h3></h3>` de apertura y cierre con un encabezado
-3. Coloca una etiqueta `<p>` de apertura y cierre y escribe un párrafo
-4. En el segundo `div` agrega las etiqueta `<h2>` y `<h5>` de apertura y cierre y añadales un encabezado 
-5. Coloca una etiqueta `<p>` de apertura y cierre y escribe un párrafo
+1. Agrega el siguiente código dentro de las etiquetas `body` de apertura y cierre. 
+
+```
+<div>
+  <h1>Los lenguajes del navegador</h1>
+  <h3>HTML, CSS y JavaScript</h3>
+</div>
+
+<div>
+  <h2>¿Qué es HTML?</h2>
+
+  <p>
+    HTML significa HyperText Markup Language y se utiliza para crear la
+    estructura y el contenido de una página web.
+  </p>
+
+  <h5>Puntos clave:</h5>
+
+  <p>HTML es un lenguaje muy sencillo compuesto de elementos.</p>
+
+  <p>
+    Un elemento HTML normalmente consta de una etiqueta de inicio y una etiqueta
+    de finalización, con el contenido insertado entre ambas.
+  </p>
+</div>
+
+```
+2. Guarda tus cambios (Archivo > Guardar)
+3. Abre tu archivo html en el navegador y verifica que puedas ver el texto que agregaste.
+4. Sube tus cambios a Github y envía por Canvas el enlace a tu repositorio.
